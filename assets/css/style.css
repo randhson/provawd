@@ -1,18 +1,29 @@
 body {
- width : 960 px;
+ width:960px;
 }
 
 header {
- height : 225 px;
+ height:225px;
+ background-color:black;
+}
+
+ul {
+ margin-left:5px;
+ alignment-baseline: bottom;
+ background-color:black;
+ width:910px;
+ border-radius:3px 5px 5px 3px;
 }
 
 ul li {
- style-type : none;
- display : inherit;
+ list-style-type:none;
+ display:inline;
+ background-color:lightgrey;
+ border-radius:5px;
+ padding:5px 10px;
+ margin-left:5px;
 }
 
-
-
 footer {
- height : 100 px;
+ height:100px;
 }
