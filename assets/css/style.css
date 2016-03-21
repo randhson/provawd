@@ -1,0 +1,18 @@
+body {
+ width : 960 px;
+}
+
+header {
+ height : 225 px;
+}
+
+ul li {
+ style-type : none;
+ display : inherit;
+}
+
+
+
+footer {
+ height : 100 px;
+}
