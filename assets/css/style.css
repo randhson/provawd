@@ -1,29 +1,97 @@
 body {
- width:960px;
+ margin: 8px;
+ display: block;
 }
 
+.container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 5px;
+	background-color: white;
+}
 header {
  height:225px;
- background-color:black;
+ width: 940px;
+ background-image: url(../img/topo.png);
+ padding: 0 10px;
+ display: table-cell;
 }
 
-ul {
- margin-left:5px;
- alignment-baseline: bottom;
- background-color:black;
- width:910px;
- border-radius:3px 5px 5px 3px;
+nav {
+	width: 960px;
+	background-color: black;
 }
+nav ul {
+ padding: 0;
+ margin-left: 5px;
+ margin-right: 5px;
+ }
 
-ul li {
+nav ul li {
  list-style-type:none;
  display:inline;
- background-color:lightgrey;
- border-radius:5px;
- padding:5px 10px;
- margin-left:5px;
+ padding: 2px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color:lightgrey;
+  border-radius:5px;
+  padding: 5px;
+  color: black;
+  transition: .3s;
+}
+
+nav ul li a:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+img {
+ width: 350px;
+ height: 250px;
+ padding: 5px 1px 5px 5px;
+}
+
+section{
+	width: 440px;
+	float: left;
+}
+article {
+	width: 490px;
+	padding-right: 10px;
+	margin-top: 25px;
+	float: right;
+	background-color: rgba(60, 97, 179, 0.2);
+    border-radius:5px;
+}
+
+article p {
+	margin-left: 5px;
 }
 
 footer {
- height:100px;
+ height:50px;
+ width: 940px;
+ padding: 10px;
+ clear: both;
+ background-color:black;
+}
+
+.classname:hover {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(0deg) scale(1.7) skew(0deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(1.7) skew(0deg) translate(0px);
+-moz-transform: rotate(0deg) scale(1.7) skew(0deg) translate(0px);
+-o-transform: rotate(0deg) scale(1.7) skew(0deg) translate(0px);
+-ms-transform: rotate(0deg) scale(1.7) skew(0deg) translate(0px);
+}
+.classname{
+-webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+-ms-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
 }
