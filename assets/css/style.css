@@ -60,7 +60,7 @@ section{
 article {
 	width: 490px;
 	padding-right: 10px;
-	margin-top: 25px;
+	margin-top: 35px;
 	float: right;
 	background-color: rgba(60, 97, 179, 0.2);
     border-radius:5px;
@@ -68,14 +68,26 @@ article {
 
 article p {
 	margin-left: 5px;
+	font-size: 20px;
 }
 
 footer {
+ clear: both;
  height:50px;
  width: 940px;
  padding: 10px;
- clear: both;
  background-color:black;
+}
+
+span {
+	color: white;
+	font-size: 13px;
+	float: left;
+}
+footer p {
+	color: white;
+	font-size: 14px;
+	float: right;
 }
 
 .classname:hover {
@@ -94,4 +106,13 @@ transform: rotate(0deg) scale(1.7) skew(0deg) translate(0px);
 -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
 -o-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
 -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+}
+
+body#index a#ho, body#novos a#p1,
+body#usados a#p2, body#contato a#p3 {
+cursor: default;
+border-left: 10px solid #3172d5;
+border-right: 10px solid #3172d5;
+background-color: #3172d5;
+color: #fff;
 }
