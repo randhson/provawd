@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Olimpiadas</title>
+	<title>Olympic Store</title>
 	<link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/form.css">
 </head>
 <body id="contato">
 <div class="container">
@@ -22,9 +23,32 @@
           <a href="contato.html" id="p3">Contato</a></li>
 	</ul>
 </nav>
+<section>
+	<div id="form_contato">
+		<form class="form" id="form1" action="post">
+      <p class="name">
+		    <input name="name" type="text" class="feedback-input" placeholder="Nome" id="nome" required/>
+		   </p>
+
+		   <p class="email">
+            <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" required/>
+           </p>
+
+           <p class="text">
+            <textarea name="text" class="feedback-input" id="comentario" placeholder="Comentario" required></textarea>
+           </p>
+
+           <div class="submit">
+            <input type="submit" value="Enviar" id="botao"/>
+           <div class="ease"></div>
+           </div>
+
+		</form>
+	</div>
+</section>
 <footer>
  <span>
- 	Copyright &copy  Randson Nunes
+ 	Copyright &copy;  Randson Nunes
  </span>
  <p>"Esse site, junto ao seu conte&uacute;do e imagens, fazem parte de um exerc&iacute;cio acad&ecirc;mico e n&atilde;o tem valor comercial."</p>
 </footer>

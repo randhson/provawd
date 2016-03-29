@@ -77,9 +77,10 @@ footer {
  width: 940px;
  padding: 10px;
  background-color:black;
+ float:right
 }
 
-span {
+footer span {
 	color: white;
 	font-size: 13px;
 	float: left;
